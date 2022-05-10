@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font: 'Poppins', sans-serif;
+  --primary-color: #FF7A4E;
+  --white-1: #fff;
+  --gray-scale-1: #F2F2F2;
+  --gray-scale-2: #BDBDBD;
+  --text-xs: 1.2rem;
+  --text-sm: 1.4rem;
+  --text-md: 1.6rem;
+  --text-lg: 2.4rem;
+  --space-sm: .8rem;
+  --space-md: 1.6rem;
+  --space-lg: 3.2rem;
+  --rounded-sm: .8rem;
+  --rounded: 1.6rem;
+  --shadow: 0px 4px 10px rgba(0, 0, 0, .05);
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--gray-scale-1);
+}
+/*# sourceMappingURL=main.css.map */

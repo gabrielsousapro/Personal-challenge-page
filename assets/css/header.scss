@@ -1,0 +1,26 @@
+.panel {
+    max-width: 720px;
+    background-color: var(--white-1);
+    padding: var(--space-lg);
+    margin: var(--space-lg) auto;
+    border-radius: var(--rounded);
+    
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .heading__title {
+            font-size: var(--text-lg);
+        }
+
+        .heading__right-arrow {
+            width: 2.6rem;
+        }
+    }
+
+    .welcome-msg {
+        margin-top: var(--space-sm);
+        font-size: var(--text-sm);   
+    }
+}

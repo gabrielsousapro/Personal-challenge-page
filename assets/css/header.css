@@ -1,0 +1,33 @@
+.panel {
+  max-width: 720px;
+  background-color: var(--white-1);
+  padding: var(--space-lg);
+  margin: var(--space-lg) auto;
+  border-radius: var(--rounded);
+}
+
+.panel .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel .heading .heading__title {
+  font-size: var(--text-lg);
+}
+
+.panel .heading .heading__right-arrow {
+  width: 2.6rem;
+}
+
+.panel .welcome-msg {
+  margin-top: var(--space-sm);
+  font-size: var(--text-sm);
+}
+/*# sourceMappingURL=header.css.map */
