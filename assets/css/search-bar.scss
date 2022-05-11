@@ -1,0 +1,20 @@
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: var(--space-lg);
+
+    .input {
+        width: 50%;
+        padding: var(--space-md);
+        border-radius: var(--rounded-sm);
+        border: none;
+        background-color: var(--gray-scale-1);
+        font-size: var(--text-md);
+        font-family: var(--font);
+
+        .input::placeholder {
+            color: var(--gray-scale-2);
+        }
+    }
+}
