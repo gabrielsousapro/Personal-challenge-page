@@ -1,0 +1,77 @@
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+        display: flex;
+        border-radius: var(--rounded);
+        background-color: white;
+        box-shadow: var(--shadow);
+        padding: var(--space-sm);
+        margin-bottom: var(--space-md);
+
+
+        .card__image,
+        .card__content {
+            width: 50%;
+        }
+
+        .card__image img {
+            width: 100%;
+            border-radius: var(--rounded);
+        }
+
+        .card__content {
+            padding: var(--space-md);
+
+            .card__content__title {
+                font-size: var(--text-lg);
+                font-weight: 500;
+                margin-bottom: var(--space-md);
+            }
+
+            .tag {
+                font-size: var(--text-xs);
+                color: var(--gray-scale-2);
+                padding: var(--space-sm) var(--space-lg);
+                border: 1px solid var(--gray-scale-1);
+                text-align: center;
+                border-radius: var(--rounded-sm);
+                margin-bottom: var(--space-md);
+                width: fit-content;
+            }
+
+            .level {
+                .level__title {
+                    font-size: --text-xs;
+                    color: var(--gray-scale-2);
+                }
+                .level__indicator {
+                    
+                    .level__indicator__item {
+                        display: inline-block;
+                        height: 6px;
+                        width: 4rem;
+                        background-color: var(--gray-scale-2);
+                        border-radius: var(--rounded-sm);
+                    }
+    
+                    .level__indicator__item--active {
+                        background-color: var(--primary-color);
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 600px){
+        .card {
+            display: block;
+
+            .card__image,
+            .card__content {
+                width: 100%;
+            }
+        }
+    }
+}
