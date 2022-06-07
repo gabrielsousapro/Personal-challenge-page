@@ -51,6 +51,8 @@ This application/site was created as a submission to a DevChallenges challenge. 
 # Install npm
     $ npm install
 
+# Start npm
+    $ npm start
 ```
 ## Contact
 
